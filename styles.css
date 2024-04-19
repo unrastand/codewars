@@ -1,0 +1,196 @@
+body{
+    background-image: url('R.jfif');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 1440px;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding: 0;
+    text-align: center; 
+    color: #ebe4e4;
+     
+    
+}
+#title{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: #f80909;    
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#app {
+    margin-top: 50px;
+}
+
+#question{
+    font-size: 26px; 
+    color: #ebe4e4;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+    -webkit-text-stroke: #e97799;
+    -webkit-text-stroke-width: 1px;
+     
+}
+
+#options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;    
+    -webkit-text-stroke: #f0f0f0;
+}
+
+.option-btn{
+    padding: 10px 20px;
+    background-color: #e21e1e; 
+    cursor: pointer;
+
+}
+
+.button-container{
+    margin-top: 20px;        
+}
+ 
+ 
+#start{
+    padding: 10px 20px;
+    background-color: #fc9105; 
+    border: 20px,#0949f8;
+    cursor: pointer;
+    
+   /* font-family:*/   
+}
+
+#next-btn{
+    
+    padding: 10px 20px;
+    background-color: #1e83e2; 
+    border: 20px,#0949f8;
+    cursor: pointer;
+}
+
+#restart{
+    
+    padding: 10px 20px;
+    background-color: #e25c1e; 
+    border: 20px,#0949f8;
+    cursor: pointer;
+}
+#timer{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-fill-color:#e21e1e70;
+    -webkit-text-stroke: #1e83e2;
+    -webkit-text-stroke-width: 1px;
+}
+#score{
+    font-size: 40px;
+    font-display: auto;
+    color: #ebe4e4;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    -webkit-text-stroke: #fc0404d7;
+    -webkit-text-stroke-width: 1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#score-value{
+    font-size: 40px;
+    font-display: auto;
+    color: #ebe4e4;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    -webkit-text-stroke: #fc0404d7;
+    -webkit-text-stroke-width: 1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/*#gameOver{
+    position: absolute;
+}*/
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.5); /*semi transperent background*/
+}
+
+.modal-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fa04044b; /*change later*/
+    padding: 20px;
+    text-align: center;
+    -webkit-text-stroke: #3104fc41;
+    -webkit-text-stroke-width: 1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+ 
+#confirmYes{
+    background-color: #fa04044b; /*change later*/
+    
+}
+#confirmNo{
+    background-color: #fa04044b; /*change later*/
+    
+}
+
+.close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#fireworks{
+    position: absolute;   
+    top: 0;
+    left: 0;
+    z-index: -1;
+    pointer-events: none;
+}
+
+canvas{
+    position: absolute;
+    top: 0;
+    left: 0; 
+    backface-visibility: hidden;
+}
+
+ #difficulty{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+ }
+ 
+ #difficultylevel{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-fill-color:#e21e1e70;
+    -webkit-text-stroke: #1e83e2;
+    -webkit-text-stroke-width: 1px;
+  /* to be used */
+ }
+  /* Button styles */
+  button {
+    padding: 10px 20px;
+    margin: 5px;    
+    -webkit-text-stroke-width: 1px;
+    
+  }
+
